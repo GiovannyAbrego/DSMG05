@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="sv.udb.edu.dsm.g05.contentproviderapp.StudentsContentProvider"
+            android:authorities="sv.udb.edu.dsm.g05.contentproviderapp.StudentsContentProvider"
+            android:exported="false" />
+
     </application>
 
 </manifest>
